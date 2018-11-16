@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image_menu_test" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+    
+            <TextView
+                android:id="@+id/articles"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/articles"
+                android:textColor="#FFD500"
+                android:paddingTop="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <Button
+                android:id="@+id/startTestArticles"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="@string/startTest" />
+
+                <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+                <Button
+                android:id="@+id/helpArticles"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="@string/help" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/prepositions"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/prepositions"
+                android:paddingTop="15dp"
+                android:textColor="#FFD500" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <Button
+                android:id="@+id/startTestPrepositions"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="@string/startTest"/>
+
+                <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+                <Button
+                android:id="@+id/helpPrepositions"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="@string/help" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/supply_reduction"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/supply_reduction"
+                android:paddingTop="15dp"
+                android:textColor="#FFD500" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <Button
+                android:id="@+id/startTestSupplyReduction"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="@string/startTest" />
+
+                <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+                <Button
+                android:id="@+id/helpSupplyReduction"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="@string/help" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/general_vocabulary"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/general_vocabulary"
+                android:paddingTop="15dp"
+                android:textColor="#FFD500" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <Button
+                android:id="@+id/startTestGeneral"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="@string/startTest" />
+
+                <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+                <Button
+                android:id="@+id/helpGeneral"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="@string/help" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/correct_form_of_verb"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/correct_form_of_verb"
+                android:paddingTop="15dp"
+                android:textColor="#FFD500" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <Button
+                android:id="@+id/startTestCorrectForm"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="@string/startTest" />
+
+                <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+                <Button
+                android:id="@+id/helpCorrectForm"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="@string/help" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/some_any_no_every"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/some_any_no_every"
+                android:paddingTop="15dp"
+                android:textColor="#FFD500" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/startTestSomeAnyNoEvery"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:text="@string/startTest" />
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/helpSomeAnyNoEvery"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:text="@string/help" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

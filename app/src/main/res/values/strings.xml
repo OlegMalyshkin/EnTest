@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ENTEST</string>
+    <string name="test">Learning English</string>
+    
+    <string name="right">Вірно!</string>
+    <string name="wrong">Не вірно!</string>
+    
+    <string name="startText">ENglish TEST - перевір свої знання англійської</string>
+    <string name="start">Тести</string>
+    <string name="help">Довідка</string>
+    <string name="exit">Вийти</string>
+    <string name="about">Про програму</string>  
+    
+    <string name="startTest">Розпочати</string>
+    <string name="articles">Артиклі</string>
+    <string name="prepositions">Прийменники і частки</string>
+    <string name="supply_reduction">Скорочені речення</string>
+    <string name="general_vocabulary">Загальна лексика</string>
+    <string name="correct_form_of_verb">Правильна форма дієслова</string>
+    <string name="some_any_no_every">Some, any, no, every</string>
+    
+    <string name="exitMenu">Повернутись</string>
+    <string name="aboutBoxText">ENglish TEST</string> 
+    <string name="aboutBoxText1">перевір свої знання \nанглійської мови</string>  
+    <string name="aboutBoxText2">Автор: Малишкін Олег
+                                \nEmail: oleg290196gmail.com </string>
+    
+    <string name="numberTest">1 з 12</string>
+    <string name="textQuestion">textQuestion</string>  
+    <string name="trueButton">trueButton</string>  
+    <string name="falseButton">falseButton</string>  
+    <string name="exitButton">Завершити</string>
+
+    <string name="action_settings">Settings</string>
+    
+</resources>
